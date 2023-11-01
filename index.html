@@ -2,35 +2,102 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+    <!-- Font Awesome -->
+    <!-- this cdn link will only support "fa", it will not support "fas" -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <!-- Three types of style  -->
+        <!-- style tag -->
+        <!-- external css -->
+        <!-- inline style -->
+
+
 </head>
 <body>
-    <!-- <div>start</div> -->
-    <!-- fa fa-car-->
-    <!-- <i class = " fa fa-car"></i> -->
-    <!-- cdn => content delivery network
-    font awesome w3
-    -->
-    <!---->
-    <div class="container">
-        <div class="row">
-          <div class="col-sm-auto" style="border: 1px solid red">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita molestiae id similique mollitia tenetur. Consequatur quia eum, dolorem optio qui cupiditate distinctio et ipsum enim quaerat, placeat pariatur sint soluta!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit debitis reprehenderit laborum facilis. Id illo rem ipsum officia reprehenderit, reiciendis necessitatibus ad fugiat, odit labore similique voluptatem numquam earum doloremque dignissimos, est veritatis. Libero voluptatum minus placeat dolore sint nisi impedit aperiam quasi deleniti sit doloribus qui, id officia magni ratione provident eius iste dolorum ducimus quia adipisci a alias nostrum non? Adipisci, harum nostrum dolorem ipsam officia quae consectetur architecto unde, perferendis, ea eum vero quas inventore ullam esse molestiae tempora. Cupiditate sunt distinctio molestiae optio assumenda, consequuntur ex laudantium, voluptatem quo, omnis neque cum provident facere repellat error.</p>
-            Column of grid layout
-          </div>
-          <div class="col-auto" style="border: 1px solid red">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt perferendis debitis, at in non minus nihil nobis reiciendis atque blanditiis. Nobis in officia eius. Modi est eos dignissimos omnis laboriosam eaque quae, libero inventore distinctio dolore, quos commodi aperiam earum quam accusamus suscipit repellat reprehenderit ratione dicta repudiandae optio ipsam.</p>    
-            Column of grid layout
-          </div>
-          <div class="col" style="border: 1px solid red">    
-            Column of grid layout
-          </div>
-        </div>
-      </div>
+    <div>Start</div>
+
+    <!-- to use icons first we need to write i tag then class name -->
+    <!-- fa fa-car -->
+    <i class="fa fa-car"></i>
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-car"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-diamond"></i>
+    <i class="fa fa-bookmark"></i>
+    <i class="fa fa-twitter"></i>
+
+
+
+    <!-- need to learn how to make layouts for UI -->
+    <!-- grid layout of bootstrap -->
+
+
+    <!-- grid:- container-> row->col -->
+
+    <!-- breakpoints for responsiveness :
+        xs: extra small
+        sm: small
+        md: medium
+        lg: large
+        xl: extra large
+        xxl extra extra large 
+
+        -by default grid allows to make sample 12 containers
+        - exchanging spaces for containers based on default 12 spaces
     
+    -->
+
+    <div class="container ">
+        <div class="row">
+            <div class="col main" style="border: 1px solid red;">
+                column of grid layouts
+            </div>
+            
+            
+        </div>
+        <div class="row">
+            <div class="col-12" style="border: 1px solid red;">
+                column of grid layouts
+            </div>
+            <div class="col-8" style="border: 1px solid red;">
+                column of grid layouts
+            </div>
+            <div class="col" style="border: 1px solid red;">
+                column of grid layouts
+            </div>
+           
+        </div>
+
+        <div class="row">
+            <div class="col-sm-auto" style="border: 1px solid red;">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore harum totam, quia obcaecati laboriosam dicta ipsum? Esse quas itaque voluptatem molestiae unde amet excepturi exercitationem illo cupiditate. Asperiores, corrupti iste nesciunt non beatae reprehenderit deleniti, provident illo ipsam exercitationem vero dignissimos. Illum corporis commodi animi natus sapiente molestias aspernatur! Magnam iusto, dolorum, nesciunt provident quaerat quae voluptatibus minus quisquam consequuntur aliquam quasi deserunt sequi eius praesentium fugit fugiat. Dolor autem explicabo saepe repellendus sit beatae. Accusantium ducimus ut mollitia, sed, laudantium aliquam veritatis voluptas pariatur quidem odio vel neque nemo voluptatem nihil deserunt velit quibusdam blanditiis inventore repudiandae assumenda non?</p>
+            </div>
+            <div class="col-8-auto" style="border: 1px solid red;">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque est sit laboriosam dolore incidunt quod doloribus autem impedit officiis quidem facere, obcaecati voluptatibus? At unde explicabo enim saepe suscipit, harum laboriosam sunt soluta ea ipsum placeat. Alias quia excepturi nobis quasi voluptas nisi! Aperiam laudantium repellendus sit vel commodi sunt.</p>
+            </div>
+            <div class="col" style="border: 1px solid red;">
+                column of grid layouts
+            </div>
+           
+        </div>
+    </div>
+
+
+    <!-- Bootstrap Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- CDN :- content delivery network -->
 </body>
 </html>
+
+
+<!-- in bootstrap you dont need to care about mediaquery (responsiveness)
+bootstrap itself will be taking care of responsive part -->
