@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+
+    <!-- Font Awesome -->
+    <!-- this cdn link will only support "fa", it will not support "fas" -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <!-- Three types of style  -->
+        <!-- style tag -->
+        <!-- external css -->
+        <!-- inline style -->
+
+
+</head>
+<body>
+    <div>Start</div>
+
+    <!-- to use icons first we need to write i tag then class name -->
+    <!-- fa fa-car -->
+    <i class="fa fa-car"></i>
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-car"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-diamond"></i>
+    <i class="fa fa-bookmark"></i>
+    <i class="fa fa-twitter"></i>
+
+
+
+    <!-- need to learn how to make layouts for UI -->
+    <!-- grid layout of bootstrap -->
+
+
+    <!-- grid:- container-> row->col -->
+
+    <!-- breakpoints for responsiveness :
+        xs: extra small
+        sm: small
+        md: medium
+        lg: large
+        xl: extra large
+        xxl extra extra large 
+
+        -by default grid allows to make sample 12 containers
+        - exchanging spaces for containers based on default 12 spaces
+    
+    -->
+
+    <div class="container ">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Navbar</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+            
+            
+        </div>
+        <div class="row">
+            <div class="col-12" style="border: 1px solid red;">
+                column of grid layouts
+            </div>
+            <div class="col-8" style="border: 1px solid red;">
+                column of grid layouts
+            </div>
+            <div class="col" style="border: 1px solid red;">
+                column of grid layouts
+            </div>
+           
+        </div>
+
+        <div class="row">
+            <div class="col-sm-auto" style="border: 1px solid red;">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item active" aria-current="page">Home</li>
+                    </ol>
+                  </nav>
+                  
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#">Home</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Library</li>
+                    </ol>
+                  </nav>
+                  
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#">Home</a></li>
+                      <li class="breadcrumb-item"><a href="#">Library</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Data</li>
+                    </ol>
+                  </nav>
+            </div>
+            <div class="col-sm-auto" style="border: 1px solid red;">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore harum totam, quia obcaecati laboriosam dicta ipsum? Esse quas itaque voluptatem molestiae unde amet excepturi exercitationem illo cupiditate. Asperiores, corrupti iste nesciunt non beatae reprehenderit deleniti, provident illo ipsam exercitationem vero dignissimos. Illum corporis commodi animi natus sapiente molestias aspernatur! Magnam iusto, dolorum, nesciunt provident quaerat quae voluptatibus minus quisquam consequuntur aliquam quasi deserunt sequi eius praesentium fugit fugiat. Dolor autem explicabo saepe repellendus sit beatae. Accusantium ducimus ut mollitia, sed, laudantium aliquam veritatis voluptas pariatur quidem odio vel neque nemo voluptatem nihil deserunt velit quibusdam blanditiis inventore repudiandae assumenda non?</p>
+            </div>
+            <div class="col-8-auto" style="border: 1px solid red;">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque est sit laboriosam dolore incidunt quod doloribus autem impedit officiis quidem facere, obcaecati voluptatibus? At unde explicabo enim saepe suscipit, harum laboriosam sunt soluta ea ipsum placeat. Alias quia excepturi nobis quasi voluptas nisi! Aperiam laudantium repellendus sit vel commodi sunt.</p>
+            </div>
+            <div class="col" style="border: 1px solid red;">
+                <div class="alert alert-success" role="alert">
+                    A simple success alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+                  </div>
+                <div class="alert alert-success" role="alert">
+                    <div class="alert alert-success" role="alert">
+                        <h4 class="alert-heading">Well done!</h4>
+                        <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+                        <hr>
+                        <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+                      </div>
+                  </div>
+            </div>
+           
+        </div>
+    </div>
+
+
+    <!-- Navbar
+        buttons
+        modals
+        carousel
+        Breadcrumb
+        cards
+
+        Layouts: Grid
+
+
+
+    Beginner
+        step1: layouts in grid
+        step2: how to make components? buttons
+        step3: card component
+        step4: navbar : header with options
+        step5: try to make dropdowns
+        step6: try to make forms
+
+    Intermediate
+        step1: modal
+        step2: navbar
+        step3: breadcrumb
+        step4: carousel
+
+
+    Projects
+        step1: create a login form using bootstrap
+        :two input boxes, and button. it wrapped in card
+
+    
+    
+    
+    -->
+
+
+
+
+
+    <!-- Bootstrap Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- CDN :- content delivery network -->
+</body>
+</html>
+
+
+<!-- in bootstrap you dont need to care about mediaquery (responsiveness)
+bootstrap itself will be taking care of responsive part -->
